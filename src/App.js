@@ -8,6 +8,7 @@ import ServicesPage from './Pages/ServicesPage.jsx'
 import GalleryPage from './Pages/GalleryPage.jsx';
 import ContactPage from './Pages/ContactPage.jsx';
 import BlogPage from './Pages/BlogPage.jsx';
+import ExplorePage from './Pages/ExplorePage.jsx';
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
           <Route path='/gallery' element={<GalleryPage/>}/>
           <Route path='/blog' element={<BlogPage/>}/>
           <Route path='/contact' element={<ContactPage/>}/>
+          <Route path='/explore' element={<ExplorePage/>}/>
         </Routes>
 
       {window.location.pathname =='/login' || (window.location.pathname =='/signup')?<></> :<Footer />}
