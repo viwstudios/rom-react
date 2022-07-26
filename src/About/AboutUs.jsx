@@ -39,6 +39,11 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
+            <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+                <iframe class="w-100 mb-n2" style={{ height: "450px" }}
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252543.55980028005!2d76.7840786713698!3d8.500047496474371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbb805bbcd47%3A0x15439fab5c5c81cb!2sThiruvananthapuram%2C%20Kerala!5e0!3m2!1sen!2sin!4v1658810071581!5m2!1sen!2sin"
+                    frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
         </div>
     )
 }
