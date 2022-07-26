@@ -9,8 +9,8 @@ const Features = () => {
             <div className="container-xxl project py-5">
                 <div className="container">
                     <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: "600px"}}>
-                        <h4 className="section-title">Our Features</h4>
-                        <h1 className="display-5 mb-4">Enjoy our customer friendly rich features.</h1>
+                        <h4 className="section-title">How to publish with us</h4>
+                        <h1 className="display-5 mb-4">Follow these steps to publish your book.</h1>
                     </div>
                     <div className="row g-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div className="col-lg-4">

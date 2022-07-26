@@ -1,14 +1,16 @@
 import React from 'react'
 import Hero from '../Home/Hero'
-import Pricing from '../Home/Pricing'
-import Features from '../Home/Features'
+import NewHero from '../Home/NewHero'
+import PublishSteps from '../Home/PublishSteps'
 
 const HomePage = () => {
   return (
     <div>
-        <Hero />
-        <Pricing />
-        <Features/>
+        <NewHero />
+        {/* <Slider/> */}
+        <PublishSteps/>
+        {/* <Pricing /> */}
+        {/* <Features/> */}
     </div>
   )
 }

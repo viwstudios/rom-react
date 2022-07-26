@@ -8,7 +8,7 @@ const ServicesHero = () => {
         data-wow-delay="0.1s"
       >
         <div className="container py-5">
-          <h1 className="display-1 text-white animated animatedText slideInDown" style={{ fontSize: '50px', marginTop: '7%' }}>Services</h1>
+          <h1 style={{color: "white"}}>Services</h1>
           <nav aria-label="breadcrumb animated slideInDown">
             <ol style={{ marginTop: '7%' }} className="breadcrumb text-uppercase mb-0">
               <li className="breadcrumb-item">

@@ -9,15 +9,19 @@ import GalleryPage from './Pages/GalleryPage.jsx';
 import ContactPage from './Pages/ContactPage.jsx';
 import BlogPage from './Pages/BlogPage.jsx';
 import ExplorePage from './Pages/ExplorePage.jsx';
+import LoginComp from './Login/LoginComp.jsx';
+import SignupComp from './Login/SignupComp.jsx';
 
 class App extends Component {
   render() {
     return (
       <div>
-      {(window.location.pathname =='/login') || (window.location.pathname =='/signup') ?<></> :<Navbar />}
+      {/* {(window.location.pathname =='/login') || (window.location.pathname =='/signup') ?<></> :<Navbar />} */}
         
         <Routes>
           <Route path='/' element={<HomePage/>}/>
+          <Route path='/login' element={<LoginComp/>}/>
+          <Route path='/signup' element={<SignupComp/>}/>
           <Route path='/about' element={<AboutPage/>}/>
           <Route path='/services' element={<ServicesPage/>}/>
           <Route path='/gallery' element={<GalleryPage/>}/>

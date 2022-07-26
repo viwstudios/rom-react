@@ -1,8 +1,16 @@
 import React from 'react'
+import MainGallery from '../Gallery/MainGallery'
+import Navbar from '../Common/Navbar'
+import GalleryHero from '../Gallery/GalleryHero'
 
 const GalleryPage = () => {
   return (
-    <div>This page is under construction.</div>
+    <div>
+      <Navbar/>
+      <GalleryHero/>
+      <MainGallery/>
+    </div>
+
   )
 }
 

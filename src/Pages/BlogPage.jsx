@@ -1,8 +1,11 @@
 import React from 'react'
+import BlogMain from '../Blog/BlogMain'
 
 const BlogPage = () => {
   return (
-    <div>This page is under construction.</div>
+    <div>
+      <BlogMain/>
+    </div>
   )
 }
 
