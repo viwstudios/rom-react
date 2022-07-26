@@ -19,6 +19,7 @@ const Footer = () => {
                             <a className="btn btn-square btn-outline-body me-1" href="#"><i
                                     className="fab fa-facebook-f"></i></a>
                             <a className="btn btn-square btn-outline-body me-1" href="#"><i className="fab fa-youtube"></i></a>
+                            <a className="btn btn-square btn-outline-body me-1" href="https://api.whatsapp.com/send?phone=8137859175&text=Welcome to Romansons."><i className="fab fa-whatsapp"></i></a>
                             <a className="btn btn-square btn-outline-body me-0" href="#"><i
                                     className="fab fa-linkedin-in"></i></a>
                         </div>

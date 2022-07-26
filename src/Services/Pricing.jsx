@@ -189,7 +189,7 @@ const Pricing = () => {
                 <li>Cover Design</li>
                 <li>Book distribution shop</li>
                 <li>Social Media</li>
-                <li>Proof reading</li>
+                {/* <li>Proof reading</li> */}
                 {/* <li>Royalty to author 20% of selling price</li> */}
               </ul>
               <div className="h-20 price-table-button">

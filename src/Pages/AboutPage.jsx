@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import AboutUsHero from '../About/AboutUsHero'
 import AboutUs from '../About/AboutUs';
@@ -8,12 +8,15 @@ import Mission from '../About/Mission';
 import Navbar from '../Common/Navbar';
 
 const AboutPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div>
-            <Navbar/>
+            <Navbar />
             <AboutUsHero />
             <AboutUs />
-            <Mission/>
+            <Mission />
             {/* <Feature /> */}
             <Team />
         </div>

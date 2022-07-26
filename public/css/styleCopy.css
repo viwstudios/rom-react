@@ -692,7 +692,7 @@ h6,
 .price-table-cont {
   height: 90%;
   background: linear-gradient(180deg, #1e1e1e, #1a1a1a);
-  margin: 0.3%;
+  margin: 1.5%;
   border-radius: 10px;
   border: 2px solid #0eb2c5;
   overflow: hidden;
@@ -700,14 +700,14 @@ h6,
 }
 
 .price-table-mid {
-  height: 98%;
+  /* height: 98%; */
   z-index: 1;
 }
 
 .price-table-content li {
-  height: 30px;
+  /* height: 30px; */
   justify-content: center;
-  line-height: 30px;
+  /* line-height: 30px; */
 }
 
 .price-table-content li {

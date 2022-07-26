@@ -655,20 +655,9 @@ h6,
   }
 }
 
-.price-table-cont {
-  height: 90%;
-  background: linear-gradient(180deg, #1e1e1e, #1a1a1a);
-  margin: 0.3%;
-  border-radius: 10px;
-  border: 2px solid #0eb2c5;
-  overflow: hidden;
-  box-shadow: 21px 19px 38px -10px #161616;
-}
 
-.price-table-mid {
-  height: 98%;
-  z-index: 1;
-}
+
+
 
 .price-table-content li {
   height: 30px;

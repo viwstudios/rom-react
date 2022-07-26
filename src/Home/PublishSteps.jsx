@@ -68,7 +68,7 @@ const PublishSteps = () => {
                                                     <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque illum natus officiis aliquid reiciendis nam quaerat placeat? Qui, vel. Est doloremque rerum ex et, consectetur id dolores, minima eius ut autem dicta incidunt aspernatur quae quasi repellat. Numquam rerum recusandae quo assumenda, voluptatibus tempore sit ipsam consectetur esse ipsa facere.</p>
                                                     <p><i className="fa fa-check text-primary me-3"></i>Feature 1</p>
                                                     <p><i className="fa fa-check text-primary me-3"></i>Feature 2</p>
-                                                    <p><i className="fa fa-check text-primary me-3"></i>Feature 3</p>
+                                                    <p><i className="fa fa-check text-primary me-3"></i>Feature 3</p>   
                                                     <a style={{ backgroundColor: "#028ED3" }} href=""
                                                         className="btn btn-primary py-3 px-5 mt-3">Read More</a>
                                                 </div>
@@ -83,8 +83,7 @@ const PublishSteps = () => {
                                                     </div>
                                                 </div>
                                                 <div className="col-md-6">
-                                                    <h1 className="mb-3">Choose a Package for confirming.</h1>
-                                                    {/* <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur corporis, ipsam tempore, fuga voluptatibus optio quasi recusandae fugiat ratione vero necessitatibus officiis commodi nam sunt ut? Voluptatum nisi hic perferendis quisquam magni voluptates repellendus maxime blanditiis sequi tempore, velit deserunt, similique distinctio ipsum rem fugiat doloremque sint debitis nostrum! Nisi.</p> */}
+                                                    <h1 className="mb-3">Choose a Package.</h1>
                                                     <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque illum natus officiis aliquid reiciendis nam quaerat placeat? Qui, vel. Est doloremque rerum ex et, consectetur id dolores, minima eius ut autem dicta incidunt aspernatur quae quasi repellat. Numquam rerum recusandae quo assumenda, voluptatibus tempore sit ipsam consectetur esse ipsa facere.</p>
                                                     <p><i className="fa fa-check text-primary me-3"></i>Feature 1</p>
                                                     <p><i className="fa fa-check text-primary me-3"></i>Feature 2</p>
