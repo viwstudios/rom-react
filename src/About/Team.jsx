@@ -7,9 +7,8 @@ const Team = () => {
     <div className="container-xxl py-5">
         <div className="container">
             <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: "600px"}}>
-                <h4 className="section-title">Team Members</h4>
-                <h1 className="display-5 mb-4">We Are Creative Architecture Team For Your Dream Home</h1>
-            </div>
+                <h4 className="section-title">Meet our authors</h4>
+              </div>
             <div className="row g-0 team-items">
                 <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div className="team-item position-relative">
