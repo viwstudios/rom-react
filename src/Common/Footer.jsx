@@ -37,8 +37,8 @@ const Footer = () => {
                         <a className="btn btn-link" href="/">Home</a>
                         <a className="btn btn-link" href="about">About Us</a>
                         <a className="btn btn-link" href="services">Our Services</a>
-                        <a className="btn btn-link" href="projects">Projects</a>
-                        <a className="btn btn-link" href="testimonials">Tesitmonials</a>
+                        <a className="btn btn-link" href="gallery">Gallery</a>
+                        <a className="btn btn-link" href="blog">Blog</a>
                         <a className="btn btn-link" href="contact">Contact Us</a>
                     </div>
                     <div className="col-lg-3 col-md-6">
